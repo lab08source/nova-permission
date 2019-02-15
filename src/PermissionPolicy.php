@@ -22,26 +22,26 @@ class PermissionPolicy
 
     public function create(): bool
     {
-        return true;
+        return false;
     }
 
     public function update(): bool
     {
-        return true;
+        return false;
     }
 
     public function delete(): bool
     {
-        return true;
+        return false;
     }
 
     public function restore(): bool
     {
-        return true;
+        return false;
     }
 
     public function forceDelete(): bool
     {
-        return true;
+        return false;
     }
 }
